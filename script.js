@@ -58,39 +58,39 @@ tl.from("h1",{
 
 
 
-// gsap.to("#box1",{
-//     x:1000,
-//     duration:1,
-//     delay:2,
-//     rotate:180,
-//     backgroundColor:"orangee",
-//     borderRadius:"10%",
-//     scale:1.2
-// }) 
-// gsap.to("#box1",{
-//     y:1000,
-//     duration:1,
-//     delay:3,
-//     rotate:360,
-//     backgroundColor:"blue",
-//     borderRadius:"20%",
-//     scale:1.4
-// }) 
-// gsap.to("#box1",{
-//     x:0,
-//     duration:1,
-//     delay:4,
-//     rotate:180,
-//     backgroundColor:"yellow",
-//     borderRadius:"35%",
-//     scale:1.6
-// }) 
-// gsap.to("#box1",{
-//     y:0,
-//     duration:1,
-//     delay:5,
-//     rotate:0,
-//     backgroundColor:"white",
-//     borderRadius:"50%",
-//     scale:4
-// }) 
+gsap.to("#box1",{
+    x:1400,
+    duration:1,
+    delay:2,
+    rotate:180,
+    backgroundColor:"orangee",
+    borderRadius:"10%",
+    scale:1
+}) 
+gsap.to("#box1",{
+    y:500,
+    duration:1,
+    delay:3,
+    rotate:360,
+    backgroundColor:"blue",
+    borderRadius:"20%",
+    scale:0.8
+}) 
+gsap.to("#box1",{
+    x:0,
+    duration:1,
+    delay:4,
+    rotate:180,
+    backgroundColor:"yellow",
+    borderRadius:"35%",
+    scale:0.6
+}) 
+gsap.to("#box1",{
+    y:0,
+    duration:1,
+    delay:5,
+    rotate:0,
+    backgroundColor:"white",
+    borderRadius:"50%",
+    scale:0.4
+}) 
