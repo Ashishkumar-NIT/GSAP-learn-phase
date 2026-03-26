@@ -15,7 +15,13 @@ html,body{
 body{
     overflow-x: hidden;
 }
-#page1{
+
+#page{
+    background-color: red;
+    width: 190px;
+    height: 180;
+}
+/* #page1{
     height: 100%;
     width:100%;
     background-color: black;
@@ -25,7 +31,7 @@ body{
     font-size: 45vw;
     font-weight: 500;
     font-family: helvetica;
-    /* transform: translate(-185%); */
+    
 }
 #page2{
     padding: 1vw 0vw;
@@ -40,7 +46,7 @@ body{
     height: 100%;
     width:100%;
     background-color: black;
-}
+} */
 
 /* 
 #page1{
