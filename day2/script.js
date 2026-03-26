@@ -1,9 +1,4 @@
 
-
-
-
-
-
 gsap.to("#page2 h1",{
     // opacity:0.6,
     duration:3,

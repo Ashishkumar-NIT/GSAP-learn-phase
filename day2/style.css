@@ -16,12 +16,12 @@ body{
     overflow-x: hidden;
 }
 
-#page{
+/* #page{
     background-color: red;
     width: 190px;
     height: 180;
-}
-/* #page1{
+} */
+#page1{
     height: 100%;
     width:100%;
     background-color: black;
@@ -40,16 +40,16 @@ body{
     background-color:rgb(119, 217, 250);
     /* padding: 20px; */
     /* gap: 20px; */
-}
+ }
 
 #page3{
     height: 100%;
     width:100%;
     background-color: black;
-} */
+} 
 
-/* 
-#page1{
+
+/* #page1{
     height: 100%;
     width: 100%;
     background-color: rgb(166, 233, 255);
@@ -75,9 +75,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
-#box{
+/* #box{
     height: 100px;
     width: 100px;
     background-color: crimson;
