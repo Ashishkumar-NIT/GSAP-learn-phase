@@ -1,7 +1,7 @@
 *{
     margin:0;
     padding:0;
-    background-color: #111;
+    /* background-color: #111; */
     box-sizing: border-box;
     font-family: gilroy;
     color:#fff
@@ -29,6 +29,9 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    /* font-size: 20px; */
 }#page3{
     height: 100%;
     width: 100%;
@@ -39,7 +42,13 @@ html,body{
 }
 
 #box{
-    height: 300px;
-    width: 300px;
+    height: 100px;
+    width: 100px;
     background-color: crimson;
+}
+
+#page2 h1,h2{
+    background-color:crimson;
+    padding:5px;
+    font-size: 40px;
 }
