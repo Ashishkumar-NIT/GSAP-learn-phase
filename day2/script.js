@@ -1,19 +1,41 @@
-gsap.from("#page1 #box",{
-    opacity:0,
-    duration:2,
-    // x:500,
-    rotate:720,
-    // delay:1,
-    scrollTrigger:{
-        trigger:"#page1 #box",
+gsap.to("#page2 h1",{
+    // opacity:0.6,
+    duration:3,
+    delay:1,
+    transform:"translate(-230%)",
+    scrollTrigger: {
+        trigger:"#page2",
         scroller:"body",
         markers:true,
-        start:"top 30%",
-        end:"top 1%",
+        start:"top 0%",
+        end: "top -250%",
         scrub:3,
         pin:true
+        // start:
     }
 })
+
+
+
+
+
+
+// gsap.from("#page1 #box",{
+//     opacity:0,
+//     duration:2,
+//     // x:500,
+//     rotate:720,
+//     // delay:1,
+//     scrollTrigger:{
+//         trigger:"#page1 #box",
+//         scroller:"body",
+//         markers:true,
+//         start:"top 30%",
+//         end:"top 1%",
+//         scrub:3,
+//         pin:true
+//     }
+// })
 
 
 // gsap.from("#page2 h1",{

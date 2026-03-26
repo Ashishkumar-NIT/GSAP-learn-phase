@@ -12,7 +12,37 @@ html,body{
     height: 100%;
     width: 100%;
 }
+body{
+    overflow-x: hidden;
+}
+#page1{
+    height: 100%;
+    width:100%;
+    background-color: black;
+}
+#page2 h1{
+    color: black;
+    font-size: 45vw;
+    font-weight: 500;
+    font-family: helvetica;
+    /* transform: translate(-185%); */
+}
+#page2{
+    padding: 1vw 0vw;
+    height: 100%;
+    width:100%;
+    background-color:rgb(119, 217, 250);
+    /* padding: 20px; */
+    /* gap: 20px; */
+}
 
+#page3{
+    height: 100%;
+    width:100%;
+    background-color: black;
+}
+
+/* 
 #page1{
     height: 100%;
     width: 100%;
@@ -31,7 +61,7 @@ html,body{
     justify-content: center;
     flex-direction: column;
     gap: 20px;
-    /* font-size: 20px; */
+
 }#page3{
     height: 100%;
     width: 100%;
@@ -51,4 +81,4 @@ html,body{
     background-color:crimson;
     padding:5px;
     font-size: 40px;
-}
+} */
