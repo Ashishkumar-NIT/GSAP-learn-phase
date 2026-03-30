@@ -90,3 +90,4 @@ No build tools are required.
 - GSAP and ScrollTrigger are loaded via CDN.
 - Internet connection is required when loading CDN files.
 - Each day is intentionally standalone so you can experiment safely without affecting other exercises.
+jnew
