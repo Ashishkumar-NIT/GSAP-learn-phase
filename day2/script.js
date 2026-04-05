@@ -16,6 +16,38 @@ gsap.to("#page2 h1",{
     }
 })
 
+gsap.to("#page2 h1",{
+    // opacity:0.6,
+    duration:3,
+    delay:1,
+    transform:"translate(-230%)",
+    scrollTrigger: {
+        trigger:"#page2",
+        scroller:"body",
+        markers:true,
+        start:"top 0%",
+        end: "top -250%",
+        scrub:3,
+        pin:true
+        // start:
+    }
+})
+gsap.to("#page2 h1",{
+    // opacity:0.6,
+    duration:3,
+    delay:1,
+    transform:"translate(-230%)",
+    scrollTrigger: {
+        trigger:"#page2",
+        scroller:"body",
+        markers:true,
+        start:"top 0%",
+        end: "top -250%",
+        scrub:3,
+        pin:true
+        // start:
+    }
+})
 
 
 
